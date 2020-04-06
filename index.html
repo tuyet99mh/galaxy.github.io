@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header {
+            background-color: lightgrey;
+            padding: 1.5em;
+            text-align: center;
+        }
+
+        /*màu cho thanh menu */
+        nav {
+            background-color: #1abc9c;
+        }
+
+        /*chỉnh đốn vị trí và loại bỏ đống bullet phía trước các mục trong li*/
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        /*đưa các mục về hàng ngang*/
+        nav li {
+            display: inline-block;
+        }
+
+        /*trang điểm*/
+        nav li a {
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            padding: 14px 16px;
+        }
+
+        nav li:hover {
+            background-color: orange;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /*tạo tí màu mè cho phần content*/
+        section {
+            background-color: lightgrey;
+
+        }
+
+        /*chia cột thành 3 phần và làm nó trên cùng một hàng*/
+        article {
+            width: 33.33%;
+            float: left;
+            background-color: #f0f0f0;
+            padding: 1em;
+        }
+
+        section:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        footer {
+            background-color: black;
+            padding: 0.8em;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>This is my branding</h1>
+        <p>Say something about website</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#link">Home</a></li>
+            <li><a href="#link">News</a></li>
+            <li><a href="#link">About</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h1>Column</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
+                aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor
+                sed accumsan convallis.</p>
+        </article>
+        <article>
+            <h1>Column</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
+                aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor
+                sed accumsan convallis.</p>
+        </article>
+        <article>
+            <h1>Column</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus
+                venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget
+                aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor
+                sed accumsan convallis.</p>
+        </article>
+    </section>
+    <footer>
+        <p>HyHy &copy; 2018</p>
+    </footer>
+</body>
+
+</html>
