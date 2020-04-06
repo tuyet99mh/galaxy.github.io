@@ -1,0 +1,61 @@
+.myCart{
+    border: 2px solid red;
+    margin-top: 30px;
+}
+.mainCart{
+    margin: 15px 50px;
+    padding: 15px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.mainCart a{
+    text-decoration: none;
+}
+.mainCart .name{
+    color: black;
+    position: absolute;
+    z-index: 2;
+}
+.mainCart a :hover{
+    color: red;
+}
+.mainCart .quantity{
+  height: 30px;
+    
+}
+.mainCart .price{
+    text-align: center;
+    font-size: 16px;
+}
+.mainCart .old-price{
+    color: gray;
+}
+.mainCart .new-price{
+    margin: 10px;
+}
+.mainCart .totalCart{
+    background-color: rgb(243, 244, 246);
+    text-align: right;
+    margin-top: 15px;
+}
+.mainCart .discount{
+    color: green;
+}
+.mainCart .itemCost{
+    font-weight: bold;
+}
+.mainCart #totalCost{
+    color: red;
+    font-weight: bold;
+    border-top: 1px solid gray;
+    margin-top: 20px;
+    font-size: 17px;
+    text-align: right;
+    padding-top: 10px;
+}
+.mainCart .remove button{
+    color: cornflowerblue;
+}
+.mainCart .remove button:hover{
+    color: red;
+}

@@ -1,0 +1,167 @@
+*{margin: 0px; padding: 0px;}
+#logo{
+    text-align: center;
+    background: rgb(255, 254, 249);
+    
+    margin: 0px auto;
+    
+}
+body{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headItem{
+    
+    text-align: left;
+    margin-top: 10px;
+    text-indent: 0px;
+}
+#search{
+    text-align: center;
+   margin: 20px 0px;
+   z-index: 3;
+   
+}
+#search .searchItem{
+    width: 40%;
+    text-align: center;
+    margin: 0px auto;
+    
+}
+#search .searchItem input{
+    width: 40%;
+
+}
+.headItem input{
+   width: 75%;
+}
+#acc{
+    position: absolute;
+    z-index: 3;
+    right: 1%;
+}
+
+#head{
+    
+    background: rgb(255, 254, 249); 
+}
+ul {
+    text-decoration: none;
+    list-style-type:none ;
+}
+#menu{
+    
+}
+.sub-menu{
+    display: none;
+    width: 80%;
+    position: absolute;
+    z-index: 1;
+}
+.menuHover:hover .sub-menu{
+    display: block;
+    width: 100%;
+  
+    background-color: rgb(238, 238, 238);
+}
+.nav-link{
+    color: white;
+}
+nav{
+    width: 100%;
+    position: fixed;
+}
+#foot{
+    font-size: 13px;
+    margin-top: 30px;
+    border-top: 1px solid gray ;
+    padding: 10px;
+}
+#body{
+    
+    background-color: rgb(230, 212, 212);
+}
+#frmLogin{
+    margin: 0px auto;
+    background-color: rgb(255, 235, 180);
+    text-align: center;
+    border: 1px solid rgb(7, 197, 255);
+}
+#login{
+    margin: 0px auto;
+}
+.item{
+    margin-top: 30px;
+    text-align: center;
+}
+.banner{
+    text-align: center;
+    margin: 0px auto;
+}
+.title{
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(255, 253, 226);
+    padding:  15px;
+    font-weight: 500;
+    margin: 20px 0px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+#detail{
+    margin: 30px 30px;
+    
+    
+}
+#detail-right{
+    text-align: justify;
+}
+.PRprice{
+    margin: 30px auto;
+    text-shadow: black;
+    font-size: 30px;
+}
+#old-price{
+    color: red;
+}
+.sub-image{
+    margin: 10px auto;   
+}
+#detail-right .buy input{
+    width: 40%;
+    height: 50px;
+}
+#detail-right .buy input:hover{
+    
+    transform: scale(1.05);
+}
+#link-item{
+    -webkit-transition: width 2s; 
+    transition: transform 1s;
+}
+#link-item:hover {
+    border: 1px solid gray;
+    transform: scale(1.05);
+    
+}
+#link-item a{
+    text-decoration: none;
+}
+.discount{
+    color: red;
+}
+button:hover{
+    transform: scale(1.05);
+}
+#link-item .name{
+    color: black;
+}
+#link-item .price{
+    color:red;
+}
+#thumb-img img{
+    border: 1px solid gray;
+}
+#banner a img{
+    width: 100%;
+}
